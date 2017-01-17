@@ -1,0 +1,118 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+
+    </style>
+
+    <style name="botonInicio" parent="Theme.AppCompat.Light">
+        <item name="colorControlHighlight">@color/colorPrimaryDark</item>
+        <item name="colorButtonNormal">@color/colorPrimary</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:height">60dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+    </style>
+
+    <style name="botonAccionDis" parent="Theme.AppCompat.Light">
+        <item name="colorControlHighlight">@color/colorPrimaryDark</item>
+        <item name="colorButtonNormal">@color/colorPrimary</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:height">60dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+    </style>
+
+    <style name="botonAccionPer" parent="Theme.AppCompat.Light">
+        <item name="colorControlHighlight">@color/darkAccent</item>
+        <item name="colorButtonNormal">@color/colorAccent</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:height">60dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+    </style>
+
+    <style name="botonAccionOcu" parent="Theme.AppCompat.Light">
+        <item name="colorControlHighlight">@color/fondoBotonNegActiv</item>
+        <item name="colorButtonNormal">@color/fondoBotonNeg</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:height">60dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+    </style>
+
+    <style name="botonAccionTer" parent="Theme.AppCompat.Light">
+        <item name="colorControlHighlight">#455A64</item>
+        <item name="colorButtonNormal">#607D8B</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:height">60dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+    </style>
+
+
+
+    <!-- botones dialogo tiempo ewxcedido -->
+    <style name="tiempoExedido_1" parent="Theme.AppCompat.Light">
+        <item name="colorControlHighlight">#1565c0</item>
+        <item name="colorButtonNormal">#2196f3</item>
+    </style>
+
+    <style name="tiempoExedido_2" parent="Theme.AppCompat.Light">
+        <item name="colorControlHighlight">#00796b</item>
+        <item name="colorButtonNormal">#009688</item>
+    </style>
+
+    <style name="tiempoExedido_3" parent="Theme.AppCompat.Light">
+        <item name="colorControlHighlight">#d32f2f</item>
+        <item name="colorButtonNormal">#f44336</item>
+    </style>
+
+    <style name="botonRegistro" parent="Theme.AppCompat.Light">
+        <item name="colorControlHighlight">@color/darkAccent</item>
+        <item name="colorButtonNormal">@color/colorAccent</item>
+    </style>
+
+    <style name="botonCancela" parent="Theme.AppCompat.Light">
+        <item name="colorControlHighlight">#727272</item>
+        <item name="colorButtonNormal">#B6B6B6</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="TextLabelOnBackgroundImage" parent="TextAppearance.AppCompat">
+        <!-- Hint color and label color in FALSE state -->
+        <item name="android:textSize">20dp</item>
+        <item name="android:textColorHint">#444</item>
+        <!-- Label color in TRUE state and bar color FALSE and TRUE State -->
+        <item name="colorAccent">#444</item>
+        <item name="colorControlNormal">#444</item>
+        <item name="colorControlActivated">#444</item>
+        <item name="android:textColorHighlight">#fff</item>
+        <item name="android:textColorLink">#fff</item>
+    </style>
+
+    <style name="Transparente" parent="@android:style/Theme.Translucent.NoTitleBar">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+    </style>
+
+
+</resources>

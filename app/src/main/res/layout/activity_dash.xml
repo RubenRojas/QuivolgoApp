@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_dash"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="cl.telios.quivolgo.Dash">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:id="@+id/imageView2"
+        android:src="@drawable/sprout" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="SISTEMA DE MEDICIONES VIVERO QUIVOLGO"
+        android:textAlignment="center"
+        android:textColor="#333"
+        android:textSize="25dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="20dp"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="100"
+        android:layout_marginBottom="75dp"
+        android:padding="5dp"
+        android:background="@color/background"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:textColor="#fff"
+            android:textSize="16dp"
+            android:layout_weight="50"
+            android:textAlignment="center"
+            android:text="USUARIO ACTIVO"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_weight="50"
+            android:textSize="16dp"
+            android:id="@+id/rut_usuario"
+            android:textColor="#fff"
+            android:text="17932104"
+            android:textAlignment="center"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:theme="@style/botonRegistro"
+        android:text="Nueva Medicion"
+        android:textSize="17sp"
+        android:textColor="#fff"
+        android:onClick="ValidateLogin"
+        android:id="@+id/nuevaMedicion"
+         />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:theme="@style/botonCancela"
+        android:text="Cerrar Sesion"
+        android:textSize="17sp"
+        android:textColor="#fff"
+
+        android:onClick="ValidateLogin"
+        android:id="@+id/cerrarSesion"
+        />
+</LinearLayout>
